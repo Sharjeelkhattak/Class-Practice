@@ -1,12 +1,15 @@
 .bg-color {
   background-color: #fbf7ed;
 }
+
 .contain {
   padding: 0px 100px;
 }
+
 .btn {
-  background-color: #004c3f;
+  background-color: #004c3f !important;
 }
+
 .btn-1 {
   background-color: white;
 }
