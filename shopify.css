@@ -1,0 +1,26 @@
+.bg-color {
+  background-color: #002d2d;
+}
+.contain {
+  padding: 0px 120px;
+}
+.btn {
+  background-color: #008060;
+}
+.text-color {
+  color: white !important ;
+}
+.fw-6 {
+  font-size: 80px !important;
+  font-weight: bolder !important;
+}
+.border {
+  border-radius: 5px;
+}
+.fw-7 {
+  font-size: 80px !important;
+  font-weight: bolder !important;
+}
+.margin {
+  margin: 0px 100px;
+}
