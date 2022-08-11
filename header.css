@@ -1,9 +1,20 @@
 .bg-color {
   background-color: #fbf7ed;
 }
+
 .contain {
   padding: 0px 100px;
 }
+
 .btn {
+<<<<<<< HEAD
   background-color: #008060;
 }
+=======
+  background-color: #004c3f !important;
+}
+
+.btn-1 {
+  background-color: white;
+}
+>>>>>>> 1ddfe50a668a9d75f070d59ede1897d99e7d8abb
