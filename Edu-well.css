@@ -33,9 +33,6 @@ ul {
 .fs-xl {
   font-size: 70px;
 }
-.color {
-  color: #dc8cdb;
-}
 .pink-grad {
   text-decoration: none;
   padding: 12px 24px;
@@ -50,4 +47,10 @@ ul {
 }
 .ps-80 {
   padding-left: 80px;
+}
+.pink {
+  color: #dc8cdb;
+}
+.shad:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
