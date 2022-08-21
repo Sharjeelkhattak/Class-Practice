@@ -88,3 +88,17 @@
 .f-w {
   font-size: 60px;
 }
+.back-color {
+  background-color: #fbfbff;
+  padding: 120px 0px;
+}
+.padding {
+  padding: 0px 180px 0px 100px;
+  font-weight: 400;
+}
+.bg-yellow {
+  background-color: #fbf7ed;
+}
+.fs-6 {
+  font-size: 20px !important;
+}
