@@ -11,7 +11,7 @@
   color: white !important ;
 }
 .fw-6 {
-  font-size: 80px !important;
+  font-size: 85px !important;
   font-weight: bolder !important;
 }
 .border {
@@ -61,7 +61,7 @@
   padding: 10px 150px 10px 275px;
 }
 .mar {
-  padding: 10px 220px 10px 20px;
+  padding: 10px 220px 60px 80px !important;
 }
 .fnt {
   font-size: 20px !important;
@@ -71,6 +71,10 @@
 }
 .font {
   font-size: 80px;
+}
+.p {
+  padding: 0px 300px !important;
+  padding-top: 115px !important;
 }
 .color {
   color: #03533f;
@@ -92,7 +96,7 @@
   background-color: #fbfbff;
   padding: 120px 0px;
 }
-.padding {
+.padding-1 {
   padding: 0px 180px 0px 100px;
   font-weight: 400;
 }
