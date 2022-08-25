@@ -1,0 +1,14 @@
+.footer {
+  background-color: #002e25;
+  color: white;
+}
+.row > ul > li > a {
+  text-decoration: none;
+  color: white;
+  border-bottom: #002e25 solid 2px;
+}
+.row > ul > li > a:hover {
+  text-decoration: none;
+  color: white;
+  border-bottom: white solid 2px;
+}
