@@ -6,15 +6,21 @@
   <body>
     <h2>JavaScript</h2>
     <script>
-      let a = prompt("Enter ur email");
-      let b = prompt("Enter ur password");
-      if (a === "Sharjeelkhattak09@gmail.com" && b === "khattak2626") {
-        alert("login successful");
-      } else if (a === "Sharjeelkhattak09@gmail.com" && b !== "khattak2626") {
-        alert("incorrect password");
-      } else {
-        alert("No user found");
-      }
+      let user = "Sharjeel";
+      let person = "Usman";
+      let spc = "           Usama Jameel          ";
+      user[4] = "a";
+      console.log(user.slice(2, 6));
+      console.log(user.length);
+      console.log(typeof user);
+      console.log(user.toUpperCase());
+      console.log(user.toLowerCase());
+      console.log(user.replace("shar", "nom"));
+      console.log(user.concat("", "is a good boy"));
+      console.log(spc.length);
+      console.log(spc.trim());
+      console.log(user.split());
+      console.log(user[4]);
     </script>
   </body>
 </html>
