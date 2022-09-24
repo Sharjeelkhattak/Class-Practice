@@ -3,20 +3,15 @@
   <head>
     <title>JavaScript</title>
   </head>
-  <body>
-    <h2>JavaScript</h2>
+  <body id="body">
+    <h2>JAVA</h2>
+    <p id="practice"></p>
     <script>
-      const arr = ["Sharjeel", "Usman", "Noman", "Usama", "Shoaib"];
-      const obj = { name: "Sharjeel", age: "20", city: "Khanewal" };
-      for (x in arr) {
-        console.log(x + " " + arr[x]);
-      }
-      for (i in obj) {
-        console.log(i + " " + obj[i]);
-      }
-      for (y of arr) {
-        console.log(y);
-      }
+      let x = "Sharjeel";
+      document.getelementbyid("body").style.backgroundcolor = "black";
+      document.getelementbyid("practice").innerHTML = "Hi" + x;
+      document.getelementbyid("practice").style.color = "white";
+      document.write("Hi world");
     </script>
   </body>
 </html>
