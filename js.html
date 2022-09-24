@@ -6,21 +6,17 @@
   <body>
     <h2>JavaScript</h2>
     <script>
-      let user = "Sharjeel";
-      let person = "Usman";
-      let spc = "           Usama Jameel          ";
-      user[4] = "a";
-      console.log(user.slice(2, 6));
-      console.log(user.length);
-      console.log(typeof user);
-      console.log(user.toUpperCase());
-      console.log(user.toLowerCase());
-      console.log(user.replace("shar", "nom"));
-      console.log(user.concat("", "is a good boy"));
-      console.log(spc.length);
-      console.log(spc.trim());
-      console.log(user.split());
-      console.log(user[4]);
+      const arr = ["Sharjeel", "Usman", "Noman", "Usama", "Shoaib"];
+      const obj = { name: "Sharjeel", age: "20", city: "Khanewal" };
+      for (x in arr) {
+        console.log(x + " " + arr[x]);
+      }
+      for (i in obj) {
+        console.log(i + " " + obj[i]);
+      }
+      for (y of arr) {
+        console.log(y);
+      }
     </script>
   </body>
 </html>
